@@ -65,14 +65,17 @@ QuickAI/
 
 
 Clone the Repository
+
 git clone https://github.com/your-username/quickai.git
 cd quickai
 
 Install Dependencies
+
 Frontend
 cd client
 npm install
 npm run dev
+
 Backend
 cd server
 npm install
