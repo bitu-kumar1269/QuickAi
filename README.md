@@ -1,85 +1,99 @@
-🚀 QuickAI
+# 🚀 QuickAI
 
 QuickAI is a full-stack AI-powered web application that provides smart content generation tools like blog titles, AI responses, and more using modern web technologies.
 
 Built with ❤️ using React, Express, and AI APIs.
 
-📌 Features
+ScreenShort:-
+<img width="2934" height="1602" alt="image" src="https://github.com/user-attachments/assets/26e52bb3-f978-481a-abed-f0be3d4cfd88" />
 
-✨ AI Blog Title Generator
 
-🤖 AI Content Generation
+---
 
-🔐 Authentication System
+## 📌 Features
 
-💳 Plan-based Access (Free / Premium)
+- ✨ AI Blog Title Generator  
+- 🤖 AI Content Generation  
+- 🔐 Authentication System  
+- 💳 Plan-based Access (Free / Premium)  
+- 🌩️ Cloud Image Upload (Cloudinary)  
+- 📱 Fully Responsive UI  
+- ⚡ Fast & Modern UI with Vite  
 
-🌩️ Cloud Image Upload (Cloudinary)
+---
 
-📱 Fully Responsive UI
+## 🛠️ Tech Stack
 
-⚡ Fast & Modern UI with Vite
+### 🔹 Frontend
+- React  
+- Vite  
+- Tailwind CSS  
+- React Router  
+- Axios
+- Clerk
 
-🛠️ Tech Stack
-🔹 Frontend
+### 🔹 Backend
+- Node.js  
+- Express.js  
+- MongoDB  
+- Cloudinary  
+- Multer  
+- CORS  
+- dotenv  
 
-React
+---
 
-Vite
+## 📂 Project Structure
 
-Tailwind CSS
-
-React Router
-
-Axios
-
-🔹 Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Cloudinary
-
-Multer
-
-CORS
-
-dotenv
-
-📂 Project Structure
+```bash
 QuickAI/
-│
-├── backend/        # Express Backend
+├── backend/
 │   ├── routes/
 │   ├── controllers/
 │   ├── middleware/
-│   └── ...
 │
-├── frontend/       # React Frontend
+├── frontend/
 │   ├── src/
-│   └── ...
 │
 └── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/quickai.git
-cd quickai
-2️⃣ Install Dependencies
-▶ Frontend
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/bitu-kumar1269/QuickAI.git
+cd QuickAI
+```
+
+### 2️⃣ Install Dependencies
+
+#### ▶ Frontend
+
+```bash
 cd frontend
 npm install
 npm run dev
-▶ Backend
+```
+
+#### ▶ Backend
+
+```bash
 cd backend
 npm install
 npm run server
-🔐 Environment Variables
+```
 
-Create a .env file inside the backend folder and add:
+---
 
+## 🔐 Environment Variables
+
+Create a `.env` file inside the **backend** folder and add:
+
+```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 
@@ -88,37 +102,35 @@ CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
 AI_API_KEY=your_ai_api_key
-🚀 How It Works
+```
 
-User signs up / logs in
+---
 
-Selects Free or Premium plan
+## 🚀 How It Works
 
-Uses AI tools (blog titles, content, etc.)
+1. User signs up / logs in  
+2. Selects Free or Premium plan  
+3. Uses AI tools (blog titles, content, etc.)  
+4. Images are uploaded to Cloudinary  
+5. AI API generates smart responses  
 
-Images are uploaded to Cloudinary
+---
 
-AI API generates smart responses
+## 🌍 Deployment
 
-🌍 Deployment
+- Frontend → Vercel   
+- Backend → Render 
+- Database → PostgreSQL
 
-You can deploy:
+---
 
-Frontend → Vercel / Netlify
+## 🤝 Contributing
 
-Backend → Render / Railway
-
-Database → MongoDB Atlas
-
-📸 Screenshots
-
-(Add your project screenshots here)
-
-🤝 Contributing
-
-Pull requests are welcome.
+Pull requests are welcome.  
 For major changes, please open an issue first to discuss what you would like to change.
 
-📜 License
+---
+
+## 📜 License
 
 This project is licensed under the MIT License.
